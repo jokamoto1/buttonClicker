@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.navBar{
+    display: flex ;
+    background-color: grey;
+    padding: auto;
+    justify-content: space-evenly;
+ 
+}
+.rectBox{
+    border-style: solid;
+    width: 300px;
+    display: flex;
+    margin-right: 20px;
+    background-color:wheat;
+}
+.col-4 .rectBox{
+    height: 100px;
+    width: 150px;
+    border-color: white;
+    background-color: white;
+}
+.row-1, .row-2{
+    display: flex;
+margin: 20px;
+justify-content: space-evenly;
+
+}
+.col-2 .rectBox{
+width: 150px;
+display: flex;
+flex-direction: column;
+
+}
+.rightbox{
+    padding-top: 25px;
+    margin-left: 20px;
+}
+.leftBox{
+    margin: 5px;
+}
+ .rectBox button{
+    background-color: yellow;
+}
+.col-2 button{
+    background-color: teal;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 5px;
+    
+}
+.col-2 .rectBox h2{
+   margin: 5px;
+   font-weight: lighter;
+   font-size: 1.2rem;
+   
+}
+.navBar button{
+    background-color: blue ;
+    margin: 5px;
+    color: white;
+}
+.navBar input{
+    margin: 5px;
+}
+.navBar h1{
+    margin: 5px;
+}
+button{
+    box-shadow: 3px 3px 3px black;
+}
